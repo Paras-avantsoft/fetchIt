@@ -1,3 +1,2 @@
-# customSearchImage
-This custom search image script is able to search image as per your requirement in json format with use of google custom search api
 # fetchIt
+This is node module to read specific text from txt file and will give response in json
