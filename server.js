@@ -34,6 +34,6 @@ http.createServer(function(req, res) {
     res.setHeader('Access-Control-Allow-Methods', '*');
     res.setHeader('Access-Control-Allow-Headers', '*');
     res.setHeader('200',{"Content-Type":"text/vcard"});
-    res.write('fetching data from file...');
+    res.write(json);
     res.end();
 }).listen(4786);
